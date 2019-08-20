@@ -29,7 +29,7 @@ spec:
         app: whoami
     spec:
       containers:
-      - image: ctmagazin/rpi-whoami 
+      - image: ctmagazin/whoami 
         name: whoami-container
         ports:
         - containerPort: 8000
